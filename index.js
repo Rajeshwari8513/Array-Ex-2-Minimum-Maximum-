@@ -8,7 +8,7 @@ for(let i=1; i<numbers.length; i++){
         maxNumber = numbers[i] ;
 }
     if(numbers[i]<miniNumber){
-        numbers[i] = miniNumber;
+       miniNumber = numbers[i] ;
     }
 }
 console.log('Maximum Number is :' + maxNumber);
